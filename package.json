@@ -1,0 +1,26 @@
+{
+  "name": "@freedomsex/login-form",
+  "version": "1.0.0",
+  "description": "Login form component",
+  "main": "index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@freedomsex/captcha-image": "^1.1.5",
+    "@freedomsex/modal-dialogs": "^2.0.0",
+    "@freedomsex/service-worker": "^0.1.0",
+    "@freedomsex/styles": "^0.1.2",
+    "bulma": "^0.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/freedomsex/login-activity.git"
+  },
+  "author": "tebaly",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/freedomsex/login-activity/issues"
+  },
+  "homepage": "https://github.com/freedomsex/login-activity#readme"
+}
