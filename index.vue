@@ -43,7 +43,7 @@ export default {
     },
     onLogin(data) {
       this.hint = 'Успешно. Подождите.';
-      this.emit('success');
+      this.$emit('success');
       // window.location.href = '/';
     },
     onError({response}) {
