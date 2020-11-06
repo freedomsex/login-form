@@ -1,6 +1,6 @@
 {
   "name": "@freedomsex/login-form",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Login form component",
   "main": "index.vue",
   "scripts": {
