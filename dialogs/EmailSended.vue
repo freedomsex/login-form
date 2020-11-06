@@ -20,6 +20,3 @@ export default {
     </a>
   </InfoDialog>
 </template>
-
-<style lang="less">
-</style>

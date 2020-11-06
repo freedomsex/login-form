@@ -8,10 +8,9 @@
   },
   "dependencies": {
     "@freedomsex/captcha-image": "^1.1.5",
-    "@freedomsex/modal-dialogs": "^2.0.0",
-    "@freedomsex/service-worker": "^0.1.0",
-    "@freedomsex/styles": "^0.1.2",
-    "bulma": "^0.8.2"
+    "@freedomsex/modal-dialogs": "^2.0.3",
+    "@freedomsex/service-worker": "^0.1.6",
+    "bulma": "^0.9.0"
   },
   "repository": {
     "type": "git",

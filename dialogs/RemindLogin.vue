@@ -118,10 +118,3 @@ export default {
     <EmailSended @close="$emit('close')" v-else/>
   </div>
 </template>
-
-<style lang="less">
-.btn-fat {
-  padding-left: @indent-xl;
-  padding-right: @indent-xl;
-}
-</style>

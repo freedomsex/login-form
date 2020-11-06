@@ -84,8 +84,8 @@ export default {
 <template>
   <div>
     <div class="lofin-form">
-      <div class="activity-section">
-        <div class="activity-section__title">Ваш логин</div>
+      <div class="mb-2">
+        <div class="label">Ваш логин</div>
         <div class="field">
           <div class="control has-icons-left">
             <span class="icon is-small is-left">
@@ -96,8 +96,8 @@ export default {
         </div>
       </div>
 
-      <div class="activity-section">
-        <div class="activity-section__title">Пароль</div>
+      <div class="mb-2">
+        <div class="label">Пароль</div>
         <div class="control has-icons-left">
           <span class="icon is-small is-left">
             <i class="material-icons">vpn_key</i>
@@ -105,15 +105,15 @@ export default {
           <input class="input" type="text" v-model="form.password" placeholder="Введите пароль">
         </div>
       </div>
-      <div class="activity-section" v-if="form.error && captcha.enabled">
-        <div class="activity-section__title">Код</div>
+      <div class="mb-2" v-if="form.error && captcha.enabled">
+        <div class="label">Код</div>
         <CaptchaImage ref="captcha" apiName="auth"
          @token="setToken"
          @input="setCode"/>
       </div>
     </div>
 
-    <div class="activity-section">
+    <div class="mb-2">
       <div class="buttons">
         <button class="button is-primary" @click="send">
           Войти
@@ -124,7 +124,7 @@ export default {
       </div>
     </div>
 
-    <div class="activity-section">
+    <div class="mb-2">
       {{hint}}
     </div>
 
@@ -134,6 +134,3 @@ export default {
   </div>
 </template>
 
-<style lang="less">
-
-</style>
