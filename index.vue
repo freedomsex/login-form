@@ -83,7 +83,7 @@ export default {
 
 <template>
   <div>
-    <div class="lofin-form">
+    <div class="lofin-form mb-5">
       <div class="mb-2">
         <div class="label">Ваш логин</div>
         <div class="field">
@@ -113,7 +113,7 @@ export default {
       </div>
     </div>
 
-    <div class="mb-2">
+    <div class="mb-4">
       <div class="buttons">
         <button class="button is-primary" @click="send">
           Войти
@@ -124,7 +124,7 @@ export default {
       </div>
     </div>
 
-    <div class="mb-2">
+    <div class="mb-3">
       {{hint}}
     </div>
 
